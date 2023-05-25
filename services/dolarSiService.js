@@ -1,12 +1,7 @@
 const convert = require('xml-js')
 const axios = require('axios')
-
-
 class dolarSiService {
 
-    /**
-     * @description Obtener un json parseado con los valores de dolarSi
-     */
     getInfoDolar = async (req, res) => {
         try {
             const dataDolar = await axios.get("https://www.dolarsi.com/api/dolarSiInfo.xml")
