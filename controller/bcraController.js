@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 class bcraController {
     constructor(dolarSiService, util) {
         this.dolarSiService = dolarSiService
