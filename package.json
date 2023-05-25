@@ -8,7 +8,7 @@
     "lint": "eslint \"./**/*.js\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Andres Gonzalez",
   "license": "ISC",
   "description": "",
   "dependencies": {
